@@ -1,0 +1,22 @@
+name="Tabarra"
+version="0.0.1"
+# If you want run it scheduled
+is_cron_job=false
+# Time
+execution_interval=3
+# If is not seconds then are minutes!
+is_interval_seconds=false
+
+# The source file
+sites_file="data.json"
+
+# DB connection
+
+[db.local]
+    connName="local"
+    engine="sqlite"
+    host=""
+    port=""
+    user=""
+    password=""
+    dbname="./_db/spiderdb"
